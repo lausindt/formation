@@ -1,0 +1,131 @@
+/* line 1, /Users/Spoke/GitHub/formation/formationstyle.scss */
+* {
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'quadranta';
+  src: url("quadranta.eot");
+  src: url("quadranta.otf") format("truetype"), url("quadranta.woff") format("woff"), url("quadranta.eot?#iefix") format("embedded-opentype"), url("quadranta.svg#QuadrantaBold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 32, /Users/Spoke/GitHub/formation/formationstyle.scss */
+h1, h2, h3, h4 {
+  display: inline-block;
+  color: white;
+  background: url(./image/selva2.jpeg) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0;
+  margin: 10px 0 0 0; }
+
+/* line 38, /Users/Spoke/GitHub/formation/formationstyle.scss */
+a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1em; }
+
+/* line 43, /Users/Spoke/GitHub/formation/formationstyle.scss */
+body {
+  font-family: fedraserifB;
+  margin: 0;
+  padding: 0; }
+
+/* line 48, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden; }
+
+/* line 53, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.img-fond {
+  background-image: url(./image/selva2.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+/* line 60, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.fond-blanc {
+  background-color: white; }
+
+/* line 62, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.fond-bleu2 {
+  background-color: rgba(2, 0, 30, 0.2); }
+
+/* line 65, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.top {
+  display: block;
+  padding: 0 10%;
+  background-color: #02001e;
+  border-bottom: solid white 4px; }
+
+/* line 71, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.title {
+  font-size: 2em; }
+
+/* line 74, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.menu {
+  height: 30px;
+  color: #dcc846;
+  font-size: 0, 7em; }
+
+/* line 79, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.menu-button {
+  display: inline-block;
+  margin: 0 5px;
+  color: white;
+  background: url(./image/selva2.jpeg) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+/* line 84, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.ligne80 {
+  width: 80%;
+  margin: auto; }
+
+/* line 88, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.ligne100 {
+  width: 100%; }
+
+/* line 91, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.colonne100 {
+  width: 100%;
+  padding: 5px 5%; }
+
+/* line 96, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.colonne50 {
+  width: 50%;
+  padding: 5px 5%;
+  float: left; }
+
+/* line 102, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.colonne33 {
+  width: 33.33%;
+  padding: 5px 5%;
+  float: left; }
+
+/* line 114, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.ujf {
+  background-image: url(./image/ujf.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100px; }
+
+/* line 118, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.udem {
+  background-image: url(./image/udem.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100px; }
+
+/* line 122, /Users/Spoke/GitHub/formation/formationstyle.scss */
+.unistra {
+  background-image: url(./image/unistra.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100px; }
+
+/*# sourceMappingURL=formationstyle.css.map */
